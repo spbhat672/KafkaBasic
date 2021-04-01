@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=EUzH9khPYgs
+
+
+
+C:\kafka\kafka\kafka> .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+C:\kafka\kafka\kafka> .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+C:\kafka\kafka\kafka>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic TestTopic
+C:\kafka\kafka\kafka>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic NewTopic
+
+C:\kafka\kafka\kafka>.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+C:\kafka\kafka\kafka>.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic TestTopic
+>Test Input Data
+>New data
+>Welcome to Daily Code Buffer!
+>Happy Learning!!!
+
+
+C:\kafka\kafka\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic TestTopic --from-beginning
+
+( the result will be )
+Test Input Data
+New data
+Welcome to Daily Code Buffer!
+Happy Learning!!!

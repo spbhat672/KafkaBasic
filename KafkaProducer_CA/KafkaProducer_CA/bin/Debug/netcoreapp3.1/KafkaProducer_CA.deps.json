@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KafkaProducer_CA/1.0.0": {
+        "dependencies": {
+          "KafkaNet": "0.1.22",
+          "kafka-net": "0.9.0.65"
+        },
+        "runtime": {
+          "KafkaProducer_CA.dll": {}
+        }
+      },
+      "kafka-net/0.9.0.65": {
+        "runtime": {
+          "lib/net45/kafka-net.dll": {
+            "assemblyVersion": "0.9.0.65",
+            "fileVersion": "0.9.0.65"
+          }
+        }
+      },
+      "KafkaNet/0.1.22": {
+        "dependencies": {
+          "ZooKeeper.Net": "3.4.6.2",
+          "log4net": "1.2.10"
+        },
+        "runtime": {
+          "lib/net45/KafkaNET.Library.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "log4net/1.2.10": {
+        "runtime": {
+          "lib/2.0/log4net.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
+          }
+        }
+      },
+      "ZooKeeper.Net/3.4.6.2": {
+        "dependencies": {
+          "log4net": "1.2.10"
+        },
+        "runtime": {
+          "lib/net40/ZooKeeperNet.dll": {
+            "assemblyVersion": "3.4.6.1",
+            "fileVersion": "3.4.6.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KafkaProducer_CA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "kafka-net/0.9.0.65": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bJ89gwjnoNWJpw/DIU5O7vauPrm/pCaX9tFAzOyWoxqcR/ua7YxXHN1TzCY6/0OkO89eD9bsow5qt6xw4RXXPw==",
+      "path": "kafka-net/0.9.0.65",
+      "hashPath": "kafka-net.0.9.0.65.nupkg.sha512"
+    },
+    "KafkaNet/0.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOWjZ7tEsERsmh9mYxsPfYHs/3BVQnWaP73qEl72BCdJkZ4/CiQ/RVCJ4kUZYDmNxA+Ye0c1u5/zqpDzAw/NqQ==",
+      "path": "kafkanet/0.1.22",
+      "hashPath": "kafkanet.0.1.22.nupkg.sha512"
+    },
+    "log4net/1.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yP7PCpxPt5cB9yiRAvCwyW5YRqXV4jM4tpVLnm/ls2nJt786l5srbSdm5xIEVMXz/kOYqLKP177Gyqey1wdP/A==",
+      "path": "log4net/1.2.10",
+      "hashPath": "log4net.1.2.10.nupkg.sha512"
+    },
+    "ZooKeeper.Net/3.4.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yWMrjstvq8QmS8xr63wNRLpGcdKbFtfLsqlN7qbiimX6tNC/R1/Nmyl25bsd15nqscY3VGpWPLctLC+RtfSswg==",
+      "path": "zookeeper.net/3.4.6.2",
+      "hashPath": "zookeeper.net.3.4.6.2.nupkg.sha512"
+    }
+  }
+}

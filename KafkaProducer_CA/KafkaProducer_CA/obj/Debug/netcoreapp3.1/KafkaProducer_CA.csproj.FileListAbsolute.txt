@@ -1,0 +1,17 @@
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.AssemblyInfoInputs.cache
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.AssemblyInfo.cs
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.csproj.CoreCompileInputs.cache
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.exe
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.deps.json
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.runtimeconfig.json
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.runtimeconfig.dev.json
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaProducer_CA.pdb
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\kafka-net.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\KafkaNET.Library.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\bin\Debug\netcoreapp3.1\ZooKeeperNet.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.csproj.CopyComplete
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.dll
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.pdb
+C:\Work\Assignment\KafkaBasic\KafkaProducer_CA\KafkaProducer_CA\obj\Debug\netcoreapp3.1\KafkaProducer_CA.genruntimeconfig.cache

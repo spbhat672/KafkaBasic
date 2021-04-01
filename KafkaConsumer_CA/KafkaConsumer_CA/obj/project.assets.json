@@ -1,0 +1,226 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "kafka-net/0.9.0.65": {
+        "type": "package",
+        "compile": {
+          "lib/net45/kafka-net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/kafka-net.dll": {}
+        }
+      },
+      "KafkaNet/0.1.22": {
+        "type": "package",
+        "dependencies": {
+          "ZooKeeper.Net": "3.4.6.2",
+          "log4net": "1.2.10"
+        },
+        "compile": {
+          "lib/net45/KafkaNET.Library.dll": {}
+        },
+        "runtime": {
+          "lib/net45/KafkaNET.Library.dll": {}
+        }
+      },
+      "log4net/1.2.10": {
+        "type": "package",
+        "compile": {
+          "lib/2.0/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/2.0/log4net.dll": {}
+        }
+      },
+      "ZooKeeper.Net/3.4.6.2": {
+        "type": "package",
+        "dependencies": {
+          "log4net": "1.2.10"
+        },
+        "compile": {
+          "lib/net40/ZooKeeperNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ZooKeeperNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kafka-net/0.9.0.65": {
+      "sha512": "bJ89gwjnoNWJpw/DIU5O7vauPrm/pCaX9tFAzOyWoxqcR/ua7YxXHN1TzCY6/0OkO89eD9bsow5qt6xw4RXXPw==",
+      "type": "package",
+      "path": "kafka-net/0.9.0.65",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "kafka-net.0.9.0.65.nupkg.sha512",
+        "kafka-net.nuspec",
+        "lib/net45/kafka-net.dll"
+      ]
+    },
+    "KafkaNet/0.1.22": {
+      "sha512": "DOWjZ7tEsERsmh9mYxsPfYHs/3BVQnWaP73qEl72BCdJkZ4/CiQ/RVCJ4kUZYDmNxA+Ye0c1u5/zqpDzAw/NqQ==",
+      "type": "package",
+      "path": "kafkanet/0.1.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "kafkanet.0.1.22.nupkg.sha512",
+        "kafkanet.nuspec",
+        "lib/net45/KafkaNET.Library.XML",
+        "lib/net45/KafkaNET.Library.dll"
+      ]
+    },
+    "log4net/1.2.10": {
+      "sha512": "yP7PCpxPt5cB9yiRAvCwyW5YRqXV4jM4tpVLnm/ls2nJt786l5srbSdm5xIEVMXz/kOYqLKP177Gyqey1wdP/A==",
+      "type": "package",
+      "path": "log4net/1.2.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/1.0/log4net.dll",
+        "lib/1.0/log4net.xml",
+        "lib/1.1/log4net.dll",
+        "lib/1.1/log4net.xml",
+        "lib/2.0/log4net.dll",
+        "lib/2.0/log4net.xml",
+        "log4net.1.2.10.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "ZooKeeper.Net/3.4.6.2": {
+      "sha512": "yWMrjstvq8QmS8xr63wNRLpGcdKbFtfLsqlN7qbiimX6tNC/R1/Nmyl25bsd15nqscY3VGpWPLctLC+RtfSswg==",
+      "type": "package",
+      "path": "zookeeper.net/3.4.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/ZooKeeperNet.dll",
+        "zookeeper.net.3.4.6.2.nupkg.sha512",
+        "zookeeper.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "KafkaNet >= 0.1.22",
+      "kafka-net >= 0.9.0.65"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sbt25\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Work\\Assignment\\KafkaBasic\\KafkaConsumer_CA\\KafkaConsumer_CA\\KafkaConsumer_CA.csproj",
+      "projectName": "KafkaConsumer_CA",
+      "projectPath": "C:\\Work\\Assignment\\KafkaBasic\\KafkaConsumer_CA\\KafkaConsumer_CA\\KafkaConsumer_CA.csproj",
+      "packagesPath": "C:\\Users\\sbt25\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\Assignment\\KafkaBasic\\KafkaConsumer_CA\\KafkaConsumer_CA\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sbt25\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "KafkaNet": {
+            "target": "Package",
+            "version": "[0.1.22, )"
+          },
+          "kafka-net": {
+            "target": "Package",
+            "version": "[0.9.0.65, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'kafka-net 0.9.0.65' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "kafka-net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'KafkaNet 0.1.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "KafkaNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'log4net 1.2.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "log4net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ZooKeeper.Net 3.4.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ZooKeeper.Net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
